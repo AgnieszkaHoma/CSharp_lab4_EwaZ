@@ -1,0 +1,20 @@
+﻿<Window x:Class="Lab04_zad1i2.StudentWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab04_zad1i2"
+        mc:Ignorable="d"
+        Title="StudentWindow" Height="256" Width="343">
+    <Grid>
+        <Label Content="Imię" HorizontalAlignment="Left" Margin="31,36,0,0" VerticalAlignment="Top" FontSize="11"/>
+        <Label Content="Nazwisko" HorizontalAlignment="Left" Margin="31,77,0,0" VerticalAlignment="Top" FontSize="11"/>
+        <Label Content="Nr Albumu" HorizontalAlignment="Left" Margin="31,115,0,0" VerticalAlignment="Top" FontSize="11"/>
+        <Label Content="Wydział" HorizontalAlignment="Left" Margin="31,155,0,0" VerticalAlignment="Top" FontSize="11"/>
+        <TextBox x:Name="tbImie" HorizontalAlignment="Left" Margin="106,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="210"/>
+        <TextBox x:Name="tbNazwisko" HorizontalAlignment="Left" Margin="106,77,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="210"/>
+        <TextBox x:Name="tbNrAlbumu" HorizontalAlignment="Left" Margin="106,118,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="210"/>
+        <TextBox x:Name="tbWydzial" HorizontalAlignment="Left" Margin="106,158,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="210"/>
+        <Button x:Name="btnAccept" Content="Ok" HorizontalAlignment="Left" Margin="256,197,0,0" VerticalAlignment="Top" Width="60" Height="20" FontWeight="Normal" Click="btnAccept_Click"/>
+    </Grid>
+</Window>
